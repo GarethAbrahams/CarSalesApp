@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.garethabrahams.carsalesapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/carlogo"
+        android:label="Car Sales App"
+        android:roundIcon="@drawable/carlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ViewActivity"/>
+        <activity android:name=".AddActivity"/>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".DeleteEditActivity"/>
+        <activity android:name=".MenuActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="Car Sales App">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
